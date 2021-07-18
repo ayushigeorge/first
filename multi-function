@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int multiplication();
+int main()
+ {
+     int multi ;
+     multi = multiplication();
+     printf("multiplication of a & b is : %d",multi);
+    return 0;
+} int multiplication()
+{
+    int a= 30 ;
+    int b = 39;
+    int multi = a+b;
+    return multi;
+}
