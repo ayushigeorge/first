@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int basic;
+    int hra,da,gross;
+    printf("enter your salary:");
+    scanf("%d",&basic);
+    if(basic<1500){
+        hra = basic* 0.10;
+        da = basic *0.90;
+        gross = basic + hra + da; 
+        printf("%d",&gross);
+    }
+    else if(basic>=1500)
+    {
+        hra =500;
+        da = basic *0.98;
+        gross = basic + hra + da;
+        printf("%d",&gross);
+    }
