@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int basic ;
+    float hra,pa,grosss;
+    printf("enter your salary: ");
+    scanf("%d",&basic);
+    hra = 0.2*basic;
+    pa = 0.4*basic;
+    printf("the hra is %f",hra);
+    printf("the pa is %f",pa);
+    
+    grosss= basic +hra +pa;
+    printf("the gross salary is : %f",grosss);
+    
+    
+    return 0;
+}
