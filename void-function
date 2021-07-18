@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void introduction()
+{
+    printf("hi, this is ayushi george");
+    printf("i am 19 years");
+    printf("nice to meet you");
+}
+int main(){
+    introduction();
+    return 0;
+}
