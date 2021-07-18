@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    float km,m,feet,inch,cm;
+    
+    printf("enter km = ");
+    scanf("%f",km);
+    m=km*1000;
+    printf("m is %f",m);
+    inch=km*39370.1;
+    printf("inch =%f",inch);
+    feet=km*3280;
+    printf("feet = %f",feet);
+    cm = km*100000;
+    printf("cm = %f",cm);
+
+    return 0;
+}
