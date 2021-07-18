@@ -1,0 +1,13 @@
+ #include <stdio.h> 
+ int main() 
+ { int a;
+ printf("enter a number: "); 
+ scanf("%d",&a); if (a/97==0) 
+ if 
+ {
+ printf("Hello World"); }
+ 
+ else 
+ { printf("bye"); }
+ 
+ return 0; }
