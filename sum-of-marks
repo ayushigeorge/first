@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main()
+{
+     int a,b,c,d,e;
+     float total,marks;
+    printf("Enter your marks: ");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    total = a+b+c+d+e;
+    marks=(total/500)*100;
+    
+    printf("total marks = %f",total);
+    printf("marks percentage = %.2f",marks);
+    if (marks<0 || marks>100)
+      {
+          printf("enter correct marks");
+          
+      }
+    else if(marks<40)
+        {
+            printf("you ARE FAILED");
+            
+        }
+    
+    else if (marks>=50 && marks<=59)
+        {
+            printf("second division");
+            
+        }
+    else if (marks>=40 && marks<49)
+        {
+            printf("third divsion");
+            
+        }
+    
+    else
+    {
+        printf("your grade is A++");
+        
+    }
+    printf("Hello World");
+
+    return 0;
+}
