@@ -1,0 +1,16 @@
+/* pallindrome number finding */
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    int reverse = 0;
+    printf("enter a number");
+    scanf("%d",&num);
+    if (num==reverse)
+    printf("the number is pallindrone number");
+    else
+     printf("the number is not pallindrone number");
+
+    return 0;
+}
