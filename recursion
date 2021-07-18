@@ -1,0 +1,20 @@
+#include <stdio.h>
+//int main()
+int addition (num1,num2)
+int main();
+{
+    int var1,var2;
+    printf("enter two numbers : ");
+    scanf("%d%d",&var1,&var2);
+    int res = addition(var1,var2);
+    printf("output : %d", res);
+    return 0;
+} 
+
+ int addition(int num1, int num2){
+     int sum;
+     sum = num2+num1;
+     return sum;
+ }
+
+
